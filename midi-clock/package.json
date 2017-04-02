@@ -16,12 +16,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/minikin/reduxStarter.git"
+    "url": "git+https://github.com/minikin/VoiceControlledDrumMachine.git"
   },
   "bugs": {
-    "url": "https://github.com/minikin/reduxStarter/issues"
+    "url": "https://github.com/minikin/VoiceControlledDrumMachine/issues"
   },
-  "homepage": "https://github.com/minikin/reduxStarter#readme",
+  "homepage": "https://github.com/minikin/VoiceControlledDrumMachine#readme",
   "author": "Sasha Prokhorenko",
   "license": "MIT",
   "dependencies": {
