@@ -1,0 +1,30 @@
+{
+  "name": "midi-clock",
+  "version": "0.1.0",
+  "description": "Send midi clock to midi device",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "scripts": {
+    "start": "node index.js",
+  },
+  "keywords": [
+    "midi",
+    "js",
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minikin/reduxStarter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/minikin/reduxStarter/issues"
+  },
+  "homepage": "https://github.com/minikin/reduxStarter#readme",
+  "author": "Sasha Prokhorenko",
+  "license": "MIT",
+  "dependencies": {
+    "midi": "^0.9.5"
+  }
+}
