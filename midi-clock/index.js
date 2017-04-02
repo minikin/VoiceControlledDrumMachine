@@ -50,14 +50,14 @@ function prepareMidiData(bpm, outPort, channel){
 
 // Send midi clock to midi port
 function sendMidiClock(bpm){
-  console.log(`Sending midi clock : ${bpm} BMP`);
+  console.log(`Sending midi clock ${bpm} BPM ...`);
   rl.close();
   while (true) {
     prepareMidiData(bpm, OutPortNumberFromName("Sonic Potions USB MIDI"), 1);
   }
 }
 
-rl.question('What BPM do you prefere ?', (bpm) => {
+rl.question('What BPM do you prefere ? ', (bpm) => {
   if (bpm <= 300){
     sendMidiClock(bpm);
   } else {
