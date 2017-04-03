@@ -1,20 +1,25 @@
 {
-  "name": "midi-clock",
+  "name": "homebridge-lxr",
   "version": "0.1.0",
   "author": "Sasha Prokhorenko",
   "license": "MIT",
-  "description": "Send midi clock to midi device",
+  "description": "Send start/stop message to LXR digital drum mashine",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "midi",
-    "js",
     "node",
-    "time clock"
+    "homebridge",
+    "siri",
+    "midi",
+    "homebridge-plugin"
   ],
+  "engines": {
+    "node": ">=4.3.2",
+    "homebridge": ">=0.4.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/minikin/VoiceControlledDrumMachine.git"
@@ -24,6 +29,7 @@
   },
   "homepage": "https://github.com/minikin/VoiceControlledDrumMachine#readme",
   "dependencies": {
-    "midi": "^0.9.5"
+    "midi": "^0.9.5",
+    "request": "^2.81.0"
   }
 }

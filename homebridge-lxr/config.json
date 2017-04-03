@@ -1,0 +1,19 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "CC:22:3D:E3:CE:30",
+        "pin": "111-22-333"
+    },
+
+    "description": "Send data to LXR Drum Machine",
+
+    "accessories": [
+        {
+            "accessory": "Midi",
+            "name": "Drum machine",
+            "port": "Sonic Potions USB MIDI",
+            "channel": 1,
+            "service": "Switch"
+        }
+    ]
+}
