@@ -23,7 +23,7 @@ function OutputForPortNumber(portNumber) {
 module.exports = function (homebridge) {
     Service = homebridge.hap.Service;
     Characteristic = homebridge.hap.Characteristic;
-    homebridge.registerAccessory("homebridge-minikin", "Midi", MidiAccessory);
+    homebridge.registerAccessory("homebridge-lxr", "Midi", MidiAccessory);
 }
 
 function MidiAccessory(log, config) {
@@ -94,8 +94,6 @@ MidiAccessory.prototype = {
             this._service
 				.getCharacteristic(Characteristic.On)
 				.on('set', this.setPowerState.bind(this));
-
-            this._service.addCharacteristic(Characteristic.Brightness)
             return [this._service];
         }
     }
